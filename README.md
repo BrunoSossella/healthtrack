@@ -5,21 +5,22 @@ Aplicativo mobile desenvolvido com React Native + Expo para auxiliar usuários n
 ## 🧠 Descrição
 
 O **HealthTrack** permite que o usuário registre dados importantes do seu dia a dia relacionados à saúde, como:
+
 - ingestão de água
 - qualidade do sono
 - prática de atividades físicas  
-Além disso, é possível acompanhar o progresso ao longo do tempo através de um histórico visual.
+  Além disso, é possível acompanhar o histórico completo desses hábitos.
 
 ## 🎯 Público-Alvo
 
 Adultos entre 18 e 45 anos que desejam melhorar sua qualidade de vida por meio do monitoramento dos seus hábitos de saúde.
 
-## ✅ Funcionalidades previstas
+## ✅ Funcionalidades
 
 - Registro diário de ingestão de água
-- Monitoramento da qualidade do sono
-- Cadastro de atividades físicas
-- Histórico com dados e gráficos
+- Cadastro de atividades físicas com duração e data
+- Monitoramento da qualidade do sono (data e horas dormidas)
+- Histórico geral consolidado com todos os registros
 
 ## 🧰 Tecnologias Utilizadas
 
@@ -27,42 +28,41 @@ Adultos entre 18 e 45 anos que desejam melhorar sua qualidade de vida por meio d
 - TypeScript
 - Expo
 - Expo Router
-- React Hook Form
 - AsyncStorage
-- Victory Native ou React Native Charts
-- React Native Paper / Expo Icons
 
 ## 🚀 Como Executar
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/BrunoSossella/healthtrack.git
 cd healthtrack
 ```
 
 2. Instale as dependências:
+
 ```bash
 npm install
 ```
 
 3. Inicie o projeto:
+
 ```bash
 npx expo start
 ```
 
 4. Abra com **Expo Go** no celular ou use um emulador/simulador.
 
+## 🧪 Estrutura de Telas
+
+- `/` - Página inicial com navegação
+- `/agua` - Registro de ingestão de água
+- `/atividade` - Cadastro de atividades físicas
+- `/sono` - Monitoramento do sono
+- `/historico` - Tela com histórico completo
+
 ---
 
-📁 Estrutura inicial com telas:
-- `index` (home)
-- `agua`
-- `sono`
-- `atividade`
-- `historico`
-
----
-
-🧑 Autor: **Bruno Sossella**  
+👤 Autor: **Bruno Sossella**  
 📧 Email: bdcsossella@minha.fag.edu.br  
-📆 Última atualização: 21/05/2025
+📆 Atualizado em: 21/05/2025
